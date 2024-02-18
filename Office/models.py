@@ -151,6 +151,3 @@ class Leave(models.Model):
         return self.leave_type.title
 
 
-# class LeaveReason(models.Model):
-    #     leave_type = models.ForeignKey(LeaveType, on_delete=models.CASCADE)
-    #     employee = models.ForeignKey(Employee, on_delete=models.CASCADE)
